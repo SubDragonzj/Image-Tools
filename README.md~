@@ -27,7 +27,6 @@ place your stock boot.img to source directory
         Image-Tools/mkbootfs ramdisk | gzip > unpack/boot.img-ramdisk-new.gz
 
 6.Create New Boot Image
-
 Take zImage, place on home directory
 
         mv zImage > boot.img-zImage
