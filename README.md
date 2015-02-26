@@ -31,5 +31,6 @@ Take zImage, place on home directory
         Image-Tools/mkbootimg --kernel unpack/boot.img-zImage --ramdisk unpack/boot.img-ramdisk-new.gz -o output/boot.img --base `cat unpack/boot.img-base`
 
 Then you will get new "boot.img" on your output directory
+
 Flash to your device boot partition
 
