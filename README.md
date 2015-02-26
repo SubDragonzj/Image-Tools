@@ -21,6 +21,7 @@ place your stock boot.img to source directory
 *You can change the gzip to lzo, lzma, xz, lz4 or anything format that be used to compress ramdisk (look at "boot.img-ramdisk.{format}")
 
 4.You Can Edit The Ramdisk
+
 5.Repack Edited Ramdisk
 
         Image-Tools/mkbootfs ramdisk | gzip > unpack/boot.img-ramdisk-new.gz
