@@ -5,6 +5,9 @@ HOW TO USE?
 2.Unpack Boot Image
 
         mkdir -p source
+
+place your stock boot.img to source directory
+
         mkdir -p unpack
         Image-Tools/unpackbootimg -i source/boot.img -o unpack
 
